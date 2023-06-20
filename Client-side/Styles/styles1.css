@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;1,300;1,400&family=Roboto+Mono:wght@700&family=Roboto:wght@500&display=swap');
+
+    html{
+        font-size: 20px;
+    }
+
+body{
+    background-color: rgb(244, 244, 247);
+    width: 100vw;
+    height: auto;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    position: absolute;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    border: 0;
+    width: 100rem;
+    box-shadow:   rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+nav{
+    display: flex;
+    gap: 45rem;
+    margin: 0;
+    border: 0;
+}
+.topy{
+    display: flex;
+    gap: 0.5px;
+    margin: 0%;
+    margin-top: 0px;
+    margin-left: 30px;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+.topy img{
+    width: 4rem;
+    height: 3rem;
+    margin-top: 1px;
+    margin-right: 0.5px;
+}
+.topy h2{
+    margin-top: 15px;
+    margin-bottom: 1rem;
+    margin-left: 0.5px;
+    height: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #1c96bb;
+    }
+    .topy h2 span{
+        color: rgb(67, 67, 160);
+    }
+    .login-section{
+        display: flex;
+        gap: 15px;
+        margin: 0%;
+        margin-top: 0px;
+        margin-left: 30px;
+        align-items: flex-start;
+        justify-items: center;
+        margin-bottom: 10px;
+    }
+    .login-section h3{
+        font-style: italic;
+        font-size: 21px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        color: #1c96bb;
+    }
+    .login-section h3 span{
+        color: #4d5492;
+    }
+    .login-section i{
+        font-size: 30px;
+        margin-top: 15px;
+        font-weight: 30;
+    }
