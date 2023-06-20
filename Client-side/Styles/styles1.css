@@ -7,30 +7,35 @@
 body{
     background-color: rgb(244, 244, 247);
     width: 100vw;
-    height: auto;
+    height: 100vh;
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
-    position: absolute;
+    padding: 0;
+    overflow-x: hidden;
+    
 }
 .container{
     background-color: rgb(255, 255, 255);
     margin: 0;
     border: 0;
-    width: 100rem;
+    width: 100%;
     box-shadow:   rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: relative;
+    white-space: nowrap;
 }
 
 nav{
-    display: flex;
+    display:flex;
     gap: 45rem;
     margin: 0;
     border: 0;
+    width: 100%;
 }
 .topy{
     display: flex;
     gap: 0.5px;
-    margin: 0%;
-    margin-top: 0px;
+    margin: 0;
+    margin-top: 0;
     margin-left: 30px;
     align-items: flex-start;
     margin-bottom: 0px;
@@ -40,6 +45,7 @@ nav{
     height: 3rem;
     margin-top: 1px;
     margin-right: 0.5px;
+    
 }
 .topy h2{
     margin-top: 15px;
@@ -56,13 +62,13 @@ nav{
     .login-section{
         display: flex;
         gap: 15px;
-        margin: 0%;
+        margin: 0;
         margin-top: 0px;
         margin-left: 30px;
         align-items: flex-start;
         justify-items: center;
         margin-bottom: 10px;
-    }
+            }
     .login-section h3{
         font-style: italic;
         font-size: 21px;
@@ -76,5 +82,37 @@ nav{
     .login-section i{
         font-size: 30px;
         margin-top: 15px;
-        font-weight: 30;
+        font-weight: 20;
+        color: #303563b6;
+      }
+        main{
+        background-color: #ffffff;
+        padding-top: 100px;
+        padding-left: 50px;
+        width:100vw
+        }
+    .major-page{
+        background-color: #dfe3e4c7;
+        margin-left: 96px;
+        border-radius: 40px;
+        padding: 15px;
+        height: 100vh;
+        width: 100%;
     }
+    .image-container img{
+        padding: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #1c96bb;
+        display: flex;
+        justify-items: center;
+        }
+        .sign-ups{
+            display: flex;
+            margin-top: 0.2px;
+            gap: 20rem;
+            align-items: stretch;
+            background-color: #4d5492;
+        }
+        
