@@ -2,7 +2,7 @@ var openFormButton = document.getElementById("openFormButton");
 var formOverlay = document.getElementById("formOverlay");
 
 openFormButton.addEventListener("click", function() {
-  formOverlay.style.display = "flex";
+  formOverlay.style.display = "block";
 });
 
 var myForm = document.getElementById("myForm");

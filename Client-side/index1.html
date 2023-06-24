@@ -8,60 +8,90 @@
         <meta name="description" content="Get available Artisans around your locality.">
         <meta name="keywords" content="jobs, artisans, services">
         <meta name="Author" content="Moses_Isang">
-
+        
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">    
-<script src="https://kit.fontawesome.com/9583314658.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">    
+        <script src="https://kit.fontawesome.com/9583314658.js" crossorigin="anonymous"></script>
+        <script src="./Scripts/jv.js"> </script>
 
     <title>ArtisanGig</title>
-    <link rel="stylesheet" type="text/css" href="./Styles/styles1.css">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    
 </head>
 
 <body>
-     <div class="container">
-            <!--NAV TOP-->
-
-            <nav>
-                <div class="topy">
+    
+    
+        <div class="container">
+            <div class="sub">
+                <div class="logo-section">
                     <img src="./Images/logo1.png" alt="Logo of the website">
+                </div>
+                <div class="my-name">
                     <h2>Artis<span>anGig</span></h2>
                 </div>
-                <div class="login-section">
+                <div class="login-link">
                     <h3>log<span>in</span></h3>
-                        <i class="fa-regular fa-circle-user"></i>
                 </div>
-            </nav>
-        </div>
-    <!--NAV TOP ends here-->
-
-    <!--MAJOR page-->
-        <main>
-            <div class="major-page">
-
-            <div class="image-outter-container">
-                <div class="write-ups">
-                    <h1>Need Help?  We've got you!</h1><h2> Worry no more, as you will get the best of our services.</h2>
-                    </div>
-                <div class="image-container">
-                    <img src="./Images/logo2.png" alt="Logo">
+                <div class="login-icon">
+                    <i class="fa-regular fa-circle-user"></i>
                 </div>
             </div>
-               <div class="sign-ups">
-                <div class="client-container">
-                    <button class="client-sign-up">Client <span>sign up</span></button>
+        </div>
+
+
+
+    <!--MAJOR page-->
+    <main>
+    <section class="section">
+        <div class="major-page">
+            <div class="check">
+            <div class="write-ups">
+                <h1>Need Help?  We've got you!</h1>
+                <h2> Worry no more, as you will get the best of our services.</h2>
+            </div>
+            <div class="image-container">
+                <img src="./Images/logo2.png" alt="Logo">
+            </div>
+            <div class="category">
+                <a href="">
+                    <h2>View categories</h2>
+                </a>
+            </div>
+        </div>
+        <div class="sign-ups" id="signUps">
+            <div class="client-container" id="clientContainer">
+                    <button id="clientSignup" class="client-sign-up">Client <span>sign up</span></button>
+                    <form id="myForm" class="my-form">
+                        <label for="name">First Name:</label>
+                        <input type="text" id="firstname" name="name">
+
+                        <label for="name">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname">
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+
+                            <button type="submit">Submit</button>
+                    </form>
                 </div>
-                <div class="artisan-container">
-                    <button class="artisan-sign-up">Artisan <span>sign up</span></button>
+
+
+                <div class="artisan-container" >
+                    <button class="artisan-sign-up" id="artisanSignup">Artisan <span>sign up</span></button>
                 </div>
-               </div>
+            </div>
 
 
-            </div>            
-        </main>
-    
+        </div>
+    </section>
+    </main>
+                
+           
+           
+        
 
-    
 </body>
 </html>
