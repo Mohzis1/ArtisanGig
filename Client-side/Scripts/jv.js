@@ -1,14 +1,8 @@
-var clientContainer = document.getElementById("clientContainer");
-var clientSignup = document.getElementById("clientSignup");
-
-clientSignup.addEventListener("onclick", function() {
-  myForm.style.display = "flex";
-});
-var myForm = document.getElementById("myForm");
-myForm.addEventListener("submit", function(event) {
-  event.preventDefault(); // Prevent form submission
-  // Handle form submission logic here
-
-  // Close the form overlay after form submission
-  clientSignup.style.display = "none";
+document.getElementById("clientSignup").addEventListener("onclick", function() {
+var form = getElementById("myForm");
+if (form.style.display === "none") {
+    form.style.display = "block";
+} else {
+    form.style.display = "none";
+}
 });

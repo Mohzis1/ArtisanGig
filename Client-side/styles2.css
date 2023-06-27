@@ -1,0 +1,32 @@
+*,
+:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+html,body{
+    width: 100dvw;
+    height: 100dvh;
+    box-sizing:border-box;
+    background-color: blue;
+}
+.section{
+    background-color: rgb(9, 94, 65);
+    box-sizing: border-box;
+    height: 50px
+   
+
+
+}
+.first-page{
+    background-color: brown;
+    height: 40px;
+    
+}
+.major1{
+    background-color: aqua;
+   
+}

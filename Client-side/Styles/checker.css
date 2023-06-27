@@ -23,4 +23,14 @@
   #openFormButton {
     margin-top: 20px;
   }
+
+
+
+
+
+
+
+  <div class="img-cont">
+                   <span class="close" onclick="document.getElementById('user-login').style.display = 'none'">&times;</span>
+                </div>
   

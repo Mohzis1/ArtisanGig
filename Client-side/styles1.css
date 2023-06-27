@@ -22,13 +22,16 @@ width: 100vw;
    min-width: 1000px;
    box-shadow:   rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
    position: relative;
-   white-space: wrap;
+   white-space: nowrap;
+   display: block;
 }
    
 
 .sub{
     display: flex;
     align-items: center;
+    white-space: nowrap;
+  
 }
 .logo-section img{ 
     height: 4rem;
@@ -47,10 +50,11 @@ width: 100vw;
 
 }
 .my-name h2 span{
-    color: rgb(67, 67, 160);
+    color: rgb(67, 67, 153);
 }
 .login-link{
     margin-left: 789px;
+    display: block;
 }
 .login-link h3{
     font-style: italic;
@@ -82,6 +86,7 @@ margin-left: 20px;
     padding: 10px;
     height: 100vh;
     width: 100%;
+    display: block;
 }
 .check{
     display: flex;
@@ -94,15 +99,15 @@ margin-left: 20px;
         }
     .write-ups h1{
         font-style: italic;
-        font-size: 50px;
+        font-size:35px;
     }
 .write-ups h2{
-    margin-top: 10px;
+    margin-top: 60px;
 }
 .image-container img{
     width: 40vw;
     min-width: 50px;
-
+    
 }
 .sign-ups{
     display: flex;
@@ -128,7 +133,8 @@ margin-left: 20px;
     color: rgba(10, 10, 10, 0.911);
     transition: box-shadow 0.15secs;
 }
-  .client-container span {
+
+.client-container span {
     color: #e9eef1ec;
 }
 .client-sign-up:hover{
@@ -157,10 +163,28 @@ margin-left: 20px;
   .artisan-sign-up:hover{
   box-shadow: 5px 5px 10px rgb(122, 115, 115);
 }
-.my-form{
-    display: none;
-    
-
+.form-cont{
+display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
 }
+.form-cont.show {
+    display: block;
+  }
 
-
+  .form-container{
+    display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgb(114, 12, 12);
+      padding: 20px;
+    }
+    .form-container.show{
+        display: bloc;
+    }
